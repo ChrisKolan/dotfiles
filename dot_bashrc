@@ -118,3 +118,4 @@ fi
 
 eval "$(starship init bash)"
 export PATH="$PATH:/opt/nvim-linux64/bin"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
