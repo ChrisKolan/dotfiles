@@ -10,5 +10,5 @@ HISTFILESIZE=2000
 test -s ~/.alias && . ~/.alias || true
 
 export PATH="$PATH:$HOME/bin"
-eval "$(starship init zsh)"
+eval "$(starship init bash)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
