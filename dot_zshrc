@@ -12,8 +12,6 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-eval "$(starship init zsh)"
-export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$PATH:$HOME/bin"
-alias chezmoi="./chezmoi"
+eval "$(starship init zsh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

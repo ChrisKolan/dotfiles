@@ -8,6 +8,7 @@ HISTSIZE=1000
 HISTFILESIZE=2000
 
 test -s ~/.alias && . ~/.alias || true
-eval "$(starship init bash)"
-export PATH="$PATH:/opt/nvim-linux64/bin"
+
+export PATH="$PATH:$HOME/bin"
+eval "$(starship init zsh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
