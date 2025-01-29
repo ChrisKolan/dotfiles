@@ -1,0 +1,26 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.leader": "<Space>",
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-c>": false,
+        "<C-v>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["i", "i"],
+            "after": ["<Esc>"]
+        } 
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["v", "v"],
+            "after": ["<Esc>"]
+        } 
+    ],
+}
