@@ -1,0 +1,1 @@
+Media-DE -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-root/Media
