@@ -23,4 +23,6 @@
             "after": ["<Esc>"]
         } 
     ],
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
 }
