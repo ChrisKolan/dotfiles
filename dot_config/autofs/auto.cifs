@@ -1,1 +1,6 @@
 Media-DE -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-root/Media
+Storage-DE -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-root/Storage
+OMV-SSD-PL -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-ostr-root/omv-ssd
+WD20TB -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-ostr-root/WD20TB
+WD -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-ostr-root/WD
+Samsung -fstype=cifs,rw,uid=1000,gid=1000,nobrl,iocharset=utf8,credentials=/home/chris/.config/autofs/credentials ://px-omv-ostr-root/Samsung
