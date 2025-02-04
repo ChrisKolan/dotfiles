@@ -10,6 +10,7 @@ config.enable_tab_bar = false
 config.window_background_opacity = 0.95
 config.initial_cols = 167
 config.initial_rows = 47
+config.leader = { key = "a", mods = "CTRL" }
 
 config.keys = {
     {
@@ -19,6 +20,27 @@ config.keys = {
         -- Split into 1/3 on the right
         pane:split { direction = "Right", size = 0.333, }
         end),
+    },
+        -- vim direction keybindings for activating panel
+    {
+        key = 'j', -- or DownArrow
+        mods = 'LEADER',
+        action = wezterm.action.ActivatePaneDirection('Down'),
+    },
+    {
+        key = 'k', -- or UpArrow
+        mods = 'LEADER',
+        action = wezterm.action.ActivatePaneDirection('Up'),
+    },
+    {
+        key = 'h', -- or LeftArrow
+        mods = 'LEADER',
+        action = wezterm.action.ActivatePaneDirection('Left'),
+    },
+    {
+        key = 'l', -- or RightArrow
+        mods = 'LEADER',
+        action = wezterm.action.ActivatePaneDirection('Right'),
     },
 }
 
