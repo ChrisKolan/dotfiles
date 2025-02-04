@@ -3,7 +3,15 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd beep extendedglob nomatch notify
+setopt hist_expire_dups_first
+setopt hist_ignore_all_dups
+setopt share_history
+setopt hist_verify
+
+bindkey '^[[A' history_search_backward
+bindkey '^[[B' history_search_forward
 bindkey -v
+bindkey -M viins 'ii' vi-cmd-mode
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/chris/.zshrc'
