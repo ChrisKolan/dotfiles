@@ -10,6 +10,7 @@ alias whoami='whoami && curl ident.me'
 alias free='free -h'
 alias cf='clear && fastfetch'
 alias :q='exit'
+alias dot='chezmoi re-add && chezmoi cd'
 
 alias ss='ssh -fN Local-Forward'
 
