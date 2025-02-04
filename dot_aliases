@@ -17,6 +17,9 @@ alias ss='ssh -fN Local-Forward'
 alias wttr='curl wttr.in'
 alias btc='curl rate.sx/btc'
 
+alias wiki_featured='links https://en.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles'
+alias wiki_good='links https://en.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles'
+
 # Create a directory and cd in it
 mkcd()
 {
