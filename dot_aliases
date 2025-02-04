@@ -1,0 +1,36 @@
+alias ll='ls -la'
+alias ls='ls --color=auto'
+alias gs='git status'
+alias df='df -h'
+alias top='btop'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias mkdir='mkdir -pv'
+alias whoami='whoami && curl ident.me'
+alias free='free -h'
+alias cf='clear && fastfetch'
+alias :q='exit'
+
+alias ss='ssh -fN Local-Forward'
+
+alias wttr='curl wttr.in'
+alias btc='curl rate.sx/btc'
+
+# Create a directory and cd in it
+mkcd()
+{
+    case $# in
+    1)
+        mkdir -p $1
+        cd $1
+        ;;
+    *)
+        echo "USAGE : mkcd rep"
+        ;;
+    esac
+}
+# Query http://cheat.sh for help with a command
+cheat()
+{
+    curl cheat.sh/$1
+}
