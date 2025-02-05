@@ -42,3 +42,5 @@ vim.api.nvim_create_autocmd({ "VimEnter" }, {
     require("nvim-tree.api").tree.open()
   end
 })
+
+vim.api.nvim_set_keymap('i', 'ii', '<Esc>', { noremap = true, silent = true })
