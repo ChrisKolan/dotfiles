@@ -160,9 +160,9 @@
     <Position Save="True">
       <Left>434</Left>
       <Top>240</Top>
-      <Width>1600</Width>
-      <Height>960</Height>
-      <PixelsPerInch>192</PixelsPerInch>
+      <Width>683</Width>
+      <Height>992</Height>
+      <PixelsPerInch>96</PixelsPerInch>
       <Maximized>True</Maximized>
       <Splitter>50</Splitter>
     </Position>
@@ -215,7 +215,7 @@
     <ColumnsTitleLikeValues>False</ColumnsTitleLikeValues>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -259,7 +259,7 @@
     </Editor>
     <Viewer>
       <Name>Source Code Pro</Name>
-      <Size>14</Size>
+      <Size>13</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Viewer>
@@ -334,8 +334,8 @@
     <MainMenu>True</MainMenu>
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
-      <ButtonHeight>44</ButtonHeight>
-      <IconSize>36</IconSize>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>20</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
@@ -547,14 +547,14 @@
     <ShowHiddenDimmed>False</ShowHiddenDimmed>
     <ShowMode>3</ShowMode>
     <ShowOverlays>True</ShowOverlays>
-    <Size>32</Size>
-    <DiskSize>32</DiskSize>
+    <Size>16</Size>
+    <DiskSize>16</DiskSize>
     <DiskAlpha>50</DiskAlpha>
     <ToolSize>24</ToolSize>
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>192</PixelsPerInch>
+    <PixelsPerInch>96</PixelsPerInch>
     <ShowInMenus Enabled="True">
       <Size>16</Size>
     </ShowInMenus>
@@ -564,9 +564,19 @@
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
   <DirectoryHotList>
+    <HotDir Name="Media-DE" Path="/mnt/Media-DE"/>
+    <HotDir Name="KOReader-WebDAV" Path="davs://app.koofr.net/dav/Koofr/KOReader/"/>
+    <HotDir Name="Downloads" Path="/home/chris/Downloads"/>
     <HotDir Name="Media-DE_Memories" Path="/mnt/Media-DE/Memories"/>
+    <HotDir Name="Photography" Path="/mnt/Media-DE/Memories/Photography"/>
+    <HotDir Name="Music" Path="/mnt/Media-DE/Music"/>
     <HotDir Name="OMV-SSD-PL" Path="/mnt/OMV-SSD-PL"/>
+    <HotDir Name="Storage-DE" Path="/mnt/Storage-DE"/>
     <HotDir Name="Audiobooks" Path="/mnt/Storage-DE/Audiobookshelf/Audiobooks"/>
+    <HotDir Name="Collection" Path="/mnt/Storage-DE/Temp/Collection"/>
+    <HotDir Name="EBooks" Path="/mnt/Storage-DE/EBooks"/>
+    <HotDir Name="WD" Path="/mnt/WD"/>
+    <HotDir Name="WD20TB" Path="/mnt/WD20TB"/>
   </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
@@ -588,8 +598,8 @@
     <MaxTextWidth>1024</MaxTextWidth>
     <ViewerMode>1</ViewerMode>
     <PrintMargins>200|200|200|200</PrintMargins>
-    <ShowCaret>False</ShowCaret>
-    <WrapText>False</WrapText>
+    <ShowCaret>True</ShowCaret>
+    <WrapText>True</WrapText>
     <LeftMargin>4</LeftMargin>
     <ExtraLineSpan>0</ExtraLineSpan>
     <PaintColor>255</PaintColor>
@@ -723,14 +733,14 @@
       <Unique>EEF063F0-30F0-4814-8500-68896F49E0FD</Unique>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>192</PixelsPerInch>
+      <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False"/>
       <Columns>
         <Column>
           <Title>Name</Title>
           <Unique>29895D24-1ABB-4445-A42B-83FAC2C2FD03</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>758</Width>
+          <Width>352</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -746,7 +756,7 @@
           <Title>Ext</Title>
           <Unique>2875E8E0-C386-4777-A62A-901AFDF610C7</Unique>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>109</Width>
+          <Width>55</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -762,7 +772,7 @@
           <Title>Size</Title>
           <Unique>C5582951-B668-49B4-9F14-BC67104B86B2</Unique>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>108</Width>
+          <Width>54</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -778,7 +788,7 @@
           <Title>Date</Title>
           <Unique>FBC92385-C036-4A15-981F-8B54AFBB7FA3</Unique>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>207</Width>
+          <Width>129</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -794,7 +804,7 @@
           <Title>Attr</Title>
           <Unique>CA6B7B93-65EB-4214-BF45-76D54038FE80</Unique>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>179</Width>
+          <Width>90</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -813,14 +823,14 @@
       <Unique>095F191E-AD13-42B3-8229-F48B95F8E936</Unique>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>192</PixelsPerInch>
+      <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False"/>
       <Columns>
         <Column>
           <Title>Name</Title>
           <Unique>B1A78ACB-1359-417B-9CFC-1B82B57D67F2</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>250</Width>
+          <Width>125</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -836,7 +846,7 @@
           <Title>Ext</Title>
           <Unique>6C123F4A-E30A-4BCB-A4DF-6855344F37E2</Unique>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <Width>25</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -852,7 +862,7 @@
           <Title>Size</Title>
           <Unique>AD497033-EE0A-444E-AB3D-0AB1E72604CE</Unique>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>70</Width>
+          <Width>35</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -868,7 +878,7 @@
           <Title>Date</Title>
           <Unique>8CFFD2B9-1AEF-474E-9BB1-D4FFE71718BB</Unique>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>140</Width>
+          <Width>70</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -884,12 +894,70 @@
           <Title>Attr</Title>
           <Unique>B95A624D-32EA-4A0B-8129-AF0AC78D0BFE</Unique>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>100</Width>
+          <Width>50</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
             <Size>8</Size>
             <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+    <ColumnsSet UseFrameCursor="False">
+      <Name>&lt;Trash&gt;</Name>
+      <Unique>914196AE-B0B5-4F56-8F53-AF6C253B141E</Unique>
+      <CustomView>False</CustomView>
+      <FileSystem>Trash</FileSystem>
+      <PixelsPerInch>96</PixelsPerInch>
+      <CursorBorder Enabled="False"/>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <Unique>AF62F4B1-37F7-4062-9A31-65DA24A39BC6</Unique>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>204</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>FiraCode Nerd Font Mono Med</Name>
+            <Size>8</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <Unique>DF7A5502-1965-4C85-857A-6308EE272339</Unique>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>102</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>FiraCode Nerd Font Mono Med</Name>
+            <Size>8</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Original path</Title>
+          <Unique>FF000ACA-988C-46C6-82D4-39DA4B6C96E3</Unique>
+          <FuncString>[Plugin(FS).trash::orig-path{}]</FuncString>
+          <Width>375</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>FiraCode Nerd Font Mono Med</Name>
+            <Size>8</Size>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
           <UseInvertedSelection>False</UseInvertedSelection>
@@ -1037,19 +1105,19 @@
     <Presets>
       <Preset>
         <Name>{BC322BF1-2185-47F6-9F99-D27ED1E23E53}</Name>
-        <Filename>[N]</Filename>
+        <Filename>S01E[C] [N6:]</Filename>
         <Extension>[E]</Extension>
         <FilenameStyle>0</FilenameStyle>
         <ExtensionStyle>0</ExtensionStyle>
-        <Find>.</Find>
+        <Find/>
         <Replace/>
         <RegExp>False</RegExp>
         <UseSubs>False</UseSubs>
         <CaseSensitive>False</CaseSensitive>
         <OnlyFirst>False</OnlyFirst>
-        <Counter>1</Counter>
+        <Counter>3</Counter>
         <Interval>1</Interval>
-        <Width>0</Width>
+        <Width>1</Width>
         <Log>
           <Enabled>False</Enabled>
           <Append>False</Append>
